@@ -1,0 +1,37 @@
+{% extends "landing/wrapper.html" %}
+{% block content %}
+{% load static %}
+<div class="container" style="margin-top: 60px;">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" style="text-align: center;">
+      <p><img src="{% static 'landing/img/iost-russia.png' %}" class="img-rounded" height="180" /></p>
+      <h2>IOST Russia</h2>
+      <p class="lead" style="margin-bottom: 20px;">We are a blockchain development company from Russia. We build software on top of IOST blockchain & grow Russian IOST community of investors & developers.</p>
+      <p><a href="https://iost.biss.com/?mit68b" target="_blank" class="btn btn-danger btn-embossed btn-hg"><span class="fui-check"></span> Vote for <strong>IOST Russia</strong></a></p>
+      <hr style="margin: 40px 0;">
+      <p><img src="{% static 'landing/img/startup.svg' %}" height="100" /></p>
+      <h4>Vote for <span class="text-danger">IOST Russia</span> – invest in IOST ecosystem!</h4>
+      <p>IOST Russia team claims to <strong class="text-success">reinvest 100% of rewards</strong><br />
+      received for the first year of work into our IOST promotion activities.</p>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 25px;">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="text-align: center;">
+      <img src="{% static 'landing/img/number.svg' %}" height="50" />
+      <h6>Grow Russian IOST community</h6>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="text-align: center;">
+      <img src="{% static 'landing/img/number-2.svg' %}" height="50" />
+      <h6>IOST Russian Website development</h6>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="text-align: center;">
+      <img src="{% static 'landing/img/number-3.svg' %}" height="50" />
+      <h6>DApps development on top of IOST</h6>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="text-align: center;">
+      <img src="{% static 'landing/img/number-4.svg' %}" height="50" />
+      <h6>Bring private equity investors into IOST</h6>
+    </div>
+  </div>
+</div>
+{% endblock %}

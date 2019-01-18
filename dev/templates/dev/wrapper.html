@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>IOST Russia – Investing in IOST ecosystem</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="IOST Russia – IOST Partner in Russia & CIS. We develop software on top of IOST network.">
+	<meta name="keywords" content="IOST, chain, blockchain, bitcoin, crypto">
+  {% load static %}
+	<!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/flat-ui-pro.min.js' %}"></script>
+
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<link rel="stylesheet" href="{% static 'css/flat-ui-pro.css' %}">
+	<link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+	<link rel="stylesheet" href="{% static 'dev/css/main.css' %}">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="{% static 'dev/img/apple-icon-57x57.png' %}">
+	<link rel="apple-touch-icon" sizes="60x60" href="{% static 'dev/img/apple-icon-60x60.png' %}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{% static 'dev/img/apple-icon-72x72.png' %}">
+	<link rel="apple-touch-icon" sizes="76x76" href="{% static 'dev/img/apple-icon-76x76.png' %}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{% static 'dev/img/apple-icon-114x114.png' %}">
+	<link rel="apple-touch-icon" sizes="120x120" href="{% static 'dev/img/apple-icon-120x120.png' %}">
+	<link rel="apple-touch-icon" sizes="144x144" href="{% static 'dev/img/apple-icon-144x144.png' %}">
+	<link rel="apple-touch-icon" sizes="152x152" href="{% static 'dev/img/apple-icon-152x152.png' %}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'dev/img/apple-icon-180x180.png' %}">
+	<link rel="icon" type="image/png" sizes="192x192"  href="{% static 'dev/img/android-icon-192x192.png' %}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{% static 'dev/img/favicon-32x32.png' %}">
+	<link rel="icon" type="image/png" sizes="96x96" href="{% static 'dev/img/favicon-96x96.png' %}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{% static 'dev/img/favicon-16x16.png' %}">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="/design/js/vendor/html5shiv.js"></script>
+	<script src="/design/js/vendor/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-embossed" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-03">
+			<span class="sr-only">Toggle navigation</span>
+			</button>
+			<a class="navbar-brand" href="/dev">🇷🇺 IOST Russia</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse-03">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="/dev">English</a></li>
+				<li><a href="/dev/ru">Русский</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+  {% block content %}
+
+  {% endblock %}
+  <footer>
+		<div class="row">
+			<hr style="margin: 40px 0;">
+			<div class="col-lg-12 col-xs-12" style="text-align: center; font-size: 24px;">
+				<a href="https://twitter.com/IOSTRussia" target="_blank">Twitter</a>
+				&bull;
+				<a href="https://vk.com/IOSTRussia" target="_blank">VK</a>
+				&bull;
+				<a href="https://t.me/IOSTRussia" target="_blank">Telegram</a>
+			</div>
+		</div>
+  </footer>
+
+</body>
+
+</html>

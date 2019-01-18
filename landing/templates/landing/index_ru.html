@@ -1,0 +1,37 @@
+{% extends "landing/wrapper.html" %}
+{% block content %}
+{% load static %}
+<div class="container" style="margin-top: 60px;">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" style="text-align: center;">
+      <p><img src="{% static 'landing/img/iost-russia.png' %}" class="img-rounded" height="180" /></p>
+      <h2>IOST Russia</h2>
+      <p class="lead" style="margin-bottom: 20px;">Мы — команда блокчейн-разработчиков из России. Мы создаём приложения на блокчейне IOST и развиваем российское сообщество инвесторов и разработчиков IOST.</p>
+      <p><a href="https://iost.biss.com/?mit68b" target="_blank" class="btn btn-danger btn-embossed btn-hg"><span class="fui-check"></span> Голосовать за <strong>IOST Russia</strong></a></p>
+      <hr style="margin: 40px 0;">
+      <p><img src="{% static 'landing/img/startup.svg' %}" height="100" /></p>
+      <h4>Проголосовал за <span class="text-danger">IOST Russia</span> – поддержал экосистему IOST!</h4>
+      <p>Мы, команда IOST Russia, будем <strong class="text-success">реинвестировать 100% прибыли,</strong><br />
+      полученной за первый год работы, в продвижение проекта IOST:</p>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 25px;">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="text-align: center;">
+      <img src="{% static 'landing/img/number.svg' %}" height="50" />
+      <h6>Развитие российского сообщества IOST</h6>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="text-align: center;">
+      <img src="{% static 'landing/img/number-2.svg' %}" height="50" />
+      <h6>Создание русского сайта IOST</h6>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="text-align: center;">
+      <img src="{% static 'landing/img/number-3.svg' %}" height="50" />
+      <h6>Разработка IOST приложений</h6>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" style="text-align: center;">
+      <img src="{% static 'landing/img/number-4.svg' %}" height="50" />
+      <h6>Привлечение частных инвесторов в IOST</h6>
+    </div>
+  </div>
+</div>
+{% endblock %}
